@@ -1,5 +1,45 @@
 # Changelog
 
+## 27/7/2026
+
+### Added
+
+#### IdeaCentre Server Evaluation
+
+Documented the potential integration of an IdeaCentre system into Project Olympus as a future infrastructure node.
+
+##### Purpose
+
+Evaluate the IdeaCentre as a dedicated always-on server to expand Project Olympus infrastructure capabilities.
+
+##### Potential Responsibilities
+
+* Docker container hosting
+* Infrastructure monitoring
+* Backup services
+* Internal service hosting
+* CI/CD workloads
+* Additional homelab utilities
+
+##### Proposed Infrastructure Role
+
+Host: IdeaCentre (pending deployment)
+
+Platform: Ubuntu Server (planned)
+
+##### Relationship to Existing Infrastructure
+
+Potential future migration target for lightweight services currently hosted on Atlas:
+
+* Homepage
+* Uptime Kuma
+* UpSnap
+* Additional Docker services
+
+##### Outcome
+
+Project Olympus architecture has been expanded to include a potential dedicated server node, separating infrastructure services from existing lightweight hardware and allowing future scalability.
+
 ## 5/6/2026
 
 ### Completed
