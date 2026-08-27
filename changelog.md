@@ -1,5 +1,36 @@
 # Changelog
 
+## 27/8/2026
+
+# Changelog
+
+All notable changes and additions to the homelab infrastructure are documented here.
+
+### Added
+- Added Dell OptiPlex 3060 Micro as a new homelab server.
+- Installed Proxmox VE as the hypervisor.
+- Configured the OptiPlex with a wired Ethernet connection.
+- Created an Ubuntu Server virtual machine for hosting services.
+- Began setting up Docker within the Ubuntu Server VM.
+- Began migrating/expanding self-hosted infrastructure onto the new server.
+
+### In Progress
+- Configure Tailscale for remote access.
+- Complete Docker setup.
+- Deploy Uptime Kuma.
+- Deploy Homepage.
+- Configure monitoring for existing homelab devices.
+- Integrate the new server with Olympus.
+
+### Planned
+- Deploy AdGuard Home.
+- Deploy Jellyfin.
+- Configure Intel Quick Sync for Jellyfin.
+- Improve storage capacity beyond the existing 512GB NVMe.
+- Upgrade system memory from 8GB to 16GB.
+- Establish automated backups.
+- Integrate Atlas and the new Proxmox server into a unified monitoring environment.
+
 ## 27/7/2026
 
 ### Added
